@@ -3,53 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VisionarioBetSinais</title>
+  <title>Visionário BetSinais</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>VisionarioBetSinais</h1>
-    <p>A casa de apostas que ajuda você a ganhar!</p>
+    <h1>Visionário BetSinais</h1>
+    <p>A casa inteligente que te ajuda a ganhar mais!</p>
   </header>
 
-  <main>
-    <section class="games">
-      <h2>Jogos Populares</h2>
+  <section class="games">
+    <h2>Jogos</h2>
+    <div class="game-card">
+      <h3>Slots</h3>
+      <p>Você escolhe qual jogar</p>
+      <p class="rtp">RTP médio: <span id="rtp-slots">---</span>%</p>
+      <a href="https://venuzbet.com/?c=visionarioseven" target="_blank">Jogar agora</a>
+    </div>
+    <div class="game-card">
+      <h3>Mines</h3>
+      <p class="rtp">RTP: <span>97%</span></p>
+      <a href="https://venuzbet.com/casino/spribe/mines?c=678d67c602a80722cc120310&utm_source=Site" target="_blank">Jogar agora</a>
+    </div>
+    <div class="game-card">
+      <h3>Roleta</h3>
+      <p class="rtp">RTP: <span>95.3%</span></p>
+      <a href="https://venuzbet.com/casino/evolution/PorROU0000000001?c=678d67c602a80722cc120310&utm_source=Site" target="_blank">Jogar agora</a>
+    </div>
+    <div class="game-card">
+      <h3>Bac Bo</h3>
+      <p class="rtp">RTP: <span>89.6%</span></p>
+      <a href="https://venuzbet.com/casino/evolution/BacBo00000000001?c=678d67c602a80722cc120310&utm_source=Site" target="_blank">Jogar agora</a>
+    </div>
+  </section>
 
-      <div class="game-card">
-        <h3>Slots</h3>
-        <p>Escolha seu jogo favorito de slots.</p>
-        <p class="warning">*Você escolhe qual jogo de slots vai jogar</p>
-        <a href="https://venuzbet.com/?c=visionarioseven" target="_blank">Jogar</a>
-        <button onclick="atualizarRTP()">Atualizar RTP</button>
-        <div id="slots-rtp">RTP: carregando...</div>
-      </div>
+  <section class="update-section">
+    <button onclick="atualizarRTP()">Atualizar % dos jogos</button>
+  </section>
 
-      <div class="game-card">
-        <h3>Mines</h3>
-        <a href="https://venuzbet.com/casino/spribe/mines?c=678d67c602a80722cc120310&utm_source=Site" target="_blank">Jogar</a>
-      </div>
-
-      <div class="game-card">
-        <h3>Roleta</h3>
-        <a href="https://venuzbet.com/casino/evolution/PorROU0000000001?c=678d67c602a80722cc120310&utm_source=Site" target="_blank">Jogar</a>
-      </div>
-
-      <div class="game-card">
-        <h3>Bac Bo</h3>
-        <a href="https://venuzbet.com/casino/evolution/BacBo00000000001?c=678d67c602a80722cc120310&utm_source=Site" target="_blank">Jogar</a>
-      </div>
-    </section>
-
-    <section class="cursos">
-      <h2>Curso Grátis</h2>
-      <p>Acesse nosso grupo no Telegram e aprenda técnicas profissionais de Roleta e Bac Bo.</p>
-      <a href="https://t.me/+TVmvDAekgww2MzJh" target="_blank">Entrar no Grupo</a>
-    </section>
-  </main>
+  <section class="cursos">
+    <h2>Cursos exclusivos</h2>
+    <p>Acesse cursos de Roleta e Bac Bo clicando no botão abaixo:</p>
+    <a href="https://t.me/+TVmvDAekgww2MzJh" target="_blank">Entrar no grupo do Telegram</a>
+  </section>
 
   <footer>
-    <p>&copy; 2025 VisionarioBetSinais. Projeto com base na VenuzBet.</p>
+    <p>© 2025 Visionário.BetSinais - Todos os direitos reservados.</p>
   </footer>
 
   <script src="script.js"></script>
